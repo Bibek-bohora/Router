@@ -1,0 +1,43 @@
+ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px;
+  background-color: #20232a;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #f7f8f8;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+ul {
+  display: inline-block;
+}
+
+.nav {
+  background-color: #20232a;
+}
+.active {
+  border-radius: 2px solid red;
+  padding: 10px;
+  color: #61dafb;
+  z-index: 999;
+  animation: bibek 2s linear infinite;
+  width: 100%;
+}
+
+@keyframes bibek {
+  from {
+    border: none;
+    border-bottom: 2px solid rgb(10, 231, 120);
+
+    border-bottom-width: 3px;
+    width: 0%;
+  }
+  to {
+    border-bottom: 2px solid rgb(204, 9, 204);
+    width: 100%;
+  }
+}
